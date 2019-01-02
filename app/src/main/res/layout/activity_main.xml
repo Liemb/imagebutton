@@ -9,18 +9,18 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imgv"
+        android:id="@+id/iv"
         android:layout_width="150dp"
-        android:layout_height="150dp" />
+        android:layout_height="150dp"/>
 
     <Space
-        android:layout_width="match_parent"
+        android:layout_width="1dp"
         android:layout_height="100dp" />
 
     <ImageButton
-        android:id="@+id/imgb"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:id="@+id/ib"
+        android:layout_width="145dp"
+        android:layout_height="64dp"
         android:src="@drawable/cfi"
-        android:onClick="click"/>
+        android:onClick="clicked" />
 </LinearLayout>
